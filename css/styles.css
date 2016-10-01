@@ -1,0 +1,82 @@
+ @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+ *{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	}
+body{
+	padding:5% 20%;
+}
+
+article{
+	display: block;
+	width: 100%;
+}
+article .keys {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+article > #function{
+	float: top
+}
+#touch{
+	display: none;
+}
+#cabecera{
+	display: block;
+    height: auto;
+	text-align: center;
+}
+#select-cal{
+	width: 100%;
+	display: inline-flex;
+	list-style: none;
+
+}
+#select-cal li{
+	width: 100%;
+	font-size: 18px;
+	margin-top: 10px;
+	margin: 0px 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	border-radius: 5px;
+	border: 1px solid #a4a5b7 ;
+	height: 1.5em;
+	text-align: center;
+	display:block;
+}
+#select-cal li:hover{
+	background-color: #a4a5b7;
+	border-color: #9a9999;
+}
+.keys ul{
+	margin: 5px;
+}
+.keys ul li{
+
+	border:1px solid #a4a5b7;
+	padding: 2em;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 7px;
+}
+.keys ul li:hover{
+	background-color: #a4a5b7;
+	border-color: #9a9999;
+	font-weight: bold;
+}
+#key-0{
+	display: block;
+    text-align: center;
+}
+
+#display{
+	height:2em;
+	margin-top: 8px;
+	border-radius: 5px;
+	background-color: #ddf2d5;
+	padding: 5px;
+}
